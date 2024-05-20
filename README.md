@@ -1,2 +1,2 @@
 # world-map
-Interactive world map for college class
+Interactive world map written with Angular framework
