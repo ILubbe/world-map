@@ -1,0 +1,36 @@
+* {
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  background-color: #cccccc;
+  height: 100%;
+  justify-content: space-around;
+  align-items: top, center;
+}
+
+.country-details {
+  width: 15%;
+  height: 100%;
+  align-items: left;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+table, tr, td, strong, li, ul {
+  background-color: #cc99ff;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 3px;
+  text-align: center;
+}
+
+path {
+  fill: #111111;
+  stroke: #555555;
+}
+
+path:hover {
+  fill: #99ccff;
+  stroke: #3366ff;
+}
