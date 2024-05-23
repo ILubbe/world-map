@@ -18,7 +18,7 @@ export class WorldMapComponent {
   printCountryData(event: any) {
     this.apiService.setCountryData(event.target.id).subscribe((data: any) => {
       this.country = {
-        ...data,
+        ...data
       }
     })
   } 
